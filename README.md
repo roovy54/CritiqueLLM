@@ -19,6 +19,26 @@ CritiqueLLM is an advanced AI tool that provides rapid, in-depth analysis of you
 - 📊 **Enhance Decision-Making**: Make data-informed choices about which ideas to pursue.
 - 💡 **Identify Blind Spots**: Uncover potential challenges or opportunities you might have missed.
 
+## Model Fine-Tuning Process
+
+We employed a rigorous process to fine-tune our model for optimal performance:
+
+1. **Data Collection**: We carefully selected 50 diverse startup ideas from around the world to create a high-quality training dataset.
+
+2. **Initial Analysis**: Multiple high-parameter language models were used to generate initial analyses of these startup ideas.
+
+3. **Human-in-the-Loop Refinement**: Human reviewers evaluated and refined the model outputs, ensuring accuracy and relevance.
+
+4. **Iterative Improvement**: We made continuous tweaks to the process based on human feedback to generate high-quality samples.
+
+5. **Model Selection**: After extensive testing, we chose open-mistral-7b as our base model due to its performance and efficiency.
+
+6. **Fine-Tuning**: The open-mistral-7b model was fine-tuned for 30 steps with a learning rate of 10^-4.
+
+7. **Validation**: Rigorous testing was conducted to ensure the fine-tuned model met our high standards for startup idea analysis.
+
+For a detailed look at our fine-tuning process and to examine the training data, please refer to the `finetuning` folder in this repository.
+
 ## Getting Started
 
 ```bash
