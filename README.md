@@ -9,8 +9,9 @@ CritiqueLLM is an advanced AI tool that provides rapid, in-depth analysis of you
 - **Three-Dimensional Insight**: Each idea is examined across critical dimensions:
   - Real World Viability & Acuteness
   - Market Potential & Target User Base
-  - Required Resources & Capital 
-
+  - Required Resources & Capital
+- **User Friendly Website**: User Friendly Website built using Flask, Bootstrap, HTML and CSS
+  
 ## Why CritiqueLLM?
 
 - 🚀 **Save Time**: Rapidly iterate through multiple ideas or variations.
