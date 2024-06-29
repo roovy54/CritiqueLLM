@@ -37,7 +37,11 @@ We employed a rigorous process to fine-tune our model for optimal performance:
 
 7. **Validation**: Rigorous testing was conducted to ensure the fine-tuned model met our high standards for startup idea analysis.
 
-For a detailed look at our fine-tuning process and to examine the training data, please refer to the `finetuning` folder in this repository.
+For a detailed look at our fine-tuning process and to examine the training data, please refer to the `finetuning` folder in this repository. Also check the weights and biases finetuning graphs below.
+
+<p align="center">
+  <img src="finetuning/weights_and_biases_graphs.png" alt="Weights and Biases Finetuning Graphs" width="1000"/>
+</p>
 
 ## Getting Started
 
