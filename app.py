@@ -6,14 +6,14 @@ from templates_and_modules import reasoning_modules, SWOT_template
 import json
 
 # Creating mistral client and using the fine-tuned open-mistral-7b
-api_key = "EIWurv5V0iQNBqbI4LixU5e8zInSyyPx"
+api_key = ""
 
 client = MistralClient(api_key=api_key)
 fine_tuned_model_id = "f1db735a-7d76-4cf6-bdbf-04b8a4a7181d"
 retrieved_jobs = client.jobs.retrieve(fine_tuned_model_id)
 
-model = retrieved_jobs.fine_tuned_model
-
+# model = retrieved_jobs.fine_tuned_model
+model = "open-mistral-7b"
 # Flask backend
 app = Flask(__name__)
 
