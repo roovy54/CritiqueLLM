@@ -12,8 +12,8 @@ client = MistralClient(api_key=api_key)
 fine_tuned_model_id = "f1db735a-7d76-4cf6-bdbf-04b8a4a7181d"
 retrieved_jobs = client.jobs.retrieve(fine_tuned_model_id)
 
-# model = retrieved_jobs.fine_tuned_model
-model = "open-mistral-7b"
+model = retrieved_jobs.fine_tuned_model
+
 # Flask backend
 app = Flask(__name__)
 
